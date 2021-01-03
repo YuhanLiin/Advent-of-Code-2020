@@ -18,4 +18,7 @@ fn main() {
     let day5_input = day5_input!();
     println!("Day5 Part1: {}", day5::pt1(&day5_input));
     println!("Day5 Part2: {}", day5::pt2(&day5_input).unwrap());
+
+    println!("Day6 Part1: {}", day6::pt1(day6::INPUT));
+    println!("Day6 Part2: {}", day6::pt2(day6::INPUT));
 }
